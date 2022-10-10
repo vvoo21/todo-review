@@ -1,6 +1,6 @@
 import strRemove from './strRemove.js';
 
-export default function DisplayTodos() {
+const DisplayTodos = () => {
   const todoList = document.querySelector('#todo-list-wrap');
   const todos = JSON.parse(localStorage.getItem('todos')) || [];
 
@@ -75,3 +75,5 @@ clearBtn.addEventListener('click', () => {
   strRemove.allCompleted();
   DisplayTodos();
 });
+
+export default DisplayTodos;

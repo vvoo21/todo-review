@@ -23,10 +23,6 @@ body {
   align-items: center;
   background: rgb(63, 94, 251);
   background: radial-gradient(circle, #3f5efb 0%, rgba(252, 70, 107, 1) 100%);
-
-  /* background: var(--light); */
-
-  /* color: var(--dark); */
 }
 
 main {
