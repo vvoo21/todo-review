@@ -67,7 +67,7 @@ const DisplayTodos = () => {
       e.target.parentElement.parentElement.remove();
     });
   });
-}
+};
 
 const clearBtn = document.querySelector('.clear-all');
 
